@@ -2,38 +2,31 @@
 require_once('inc/upload_file.php');
 ?>
 
-
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Formularz kontaktowy</title>
+	<title>Upload file</title>
 	<meta name="author" content="www.dreamfocus.pl">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!--[if IE]>
-<p class="browserupgrade">Używasz <strong>nieaktualnej</strong> wersji przeglądarki. Zaktualizuj <a
-		href="https://browsehappy
-.com/">przeglądarkę</a> aby wszystko działało poprawnie i bezpiecznie.</p>
-<![endif]-->
-
-
-<section id="contact__section">
-	<div class="contact__container">
-		<div class="contact__form">
-			<h3 class="contact__form--header">Formularz kontaktowy</h3>
-			<hr class="dec">
-
-			<form id="data" method="post" enctype="multipart/form-data" action="">
-				<input name="file" type="file" />
-				<br><button>Submit</button>
-			</form>
-		</div>
-	</div>
-</section>
-
+    <section id="contact__section">
+        <h1 class="contact__form--header">Upload file</h1>
+        <hr class="dec">
+        <span class="msh">
+            <?php
+                if (isset($message)) {
+                    echo $message;
+                }
+            ?>
+        </span>
+        <form id="data" method="post" enctype="multipart/form-data" action="">
+            <input name="file" type="file" id="file"/>
+            <br><button name="send">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
