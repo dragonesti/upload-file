@@ -1,7 +1,7 @@
-# contact-form
-Simple contact form use: php validation, ajax, jquery.
+# Upload file form 
+Simple form to upload file do folder.
 
-This is usefull on static website if you need simple contact form.
-Sending form is implemented through php mail() function.
+## Simple validation 
+Form show example how to validate size and extension of uploaded file.
 
-To set the recipient's adess, you need to edit file inc/mail.php and change e-mail address
+It was created for educational purposes.

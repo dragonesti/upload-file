@@ -8,7 +8,6 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Upload file</title>
-	<meta name="author" content="www.dreamfocus.pl">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
