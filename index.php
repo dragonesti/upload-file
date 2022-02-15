@@ -1,7 +1,6 @@
 <?php
-require_once('inc/upload_file.php');
+    require_once('inc/upload_file.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,9 +22,10 @@ require_once('inc/upload_file.php');
                 }
             ?>
         </span>
+        <hr class="dec">
         <form id="data" method="post" enctype="multipart/form-data" action="">
             <input name="file" type="file" id="file"/>
-            <br><button name="send">Submit</button>
+            <br><button name="send">Upload your file </button>
         </form>
     </section>
 </body>
